@@ -49,5 +49,4 @@ for (const line of lines) {
     }
 }
 
-// console.log(overlappingPonts)
 console.log(Object.keys(tiles).filter(x => tiles[x] >= 2).length);
